@@ -1,4 +1,4 @@
 %%
-^-?(\d+(\.\d+)?|\.\d+)([+-]?\d+(\.\d+)?|\.\d+)?[iIjJ]$ {printf("ACEPTA");}
-. {printf("NO ACEPTA");}
+^-?(\d+(\.\d+)?|\.\d+)([+-]?\d+(\.\d+)?|\.\d+)?[iIjJ]$ {printf("ACEPTA\n");}
+. {printf("NO ACEPTA\n");}
 %%
