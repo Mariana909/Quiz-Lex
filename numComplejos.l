@@ -6,8 +6,8 @@ ENTERO {DIGITO}+
 NUMERO ({DECIMAL}|{ENTERO})([eE][+-]?{ENTERO})?
 %}
 %%
-{NUMERO}[iIjJ] {printf("ACEPTA\");/* Complejos Puros*/}
-{NUMERO}[+-]{NUMERO}[iIjJ] {printf("ACEPTA\");/* Complejos con parte real*/}
+{NUMERO}[iIjJ] {printf("ACEPTA\n");/* Complejos Puros*/}
+{NUMERO}[+-]{NUMERO}[iIjJ] {printf("ACEPTA\n");/* Complejos con parte real*/}
 [\t\n] {}
 . {printf("NO ACEPTA\n");}
 %%
