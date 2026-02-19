@@ -1,3 +1,7 @@
+%{
+#include <stdio.h>
+%}
 %%
-. {printf("NO ACEPTA\n");}
+^-?(\d+(\.\d+)?|\.\d+)([+-]?\d+(\.\d+)?|\.\d+)?i$ {printf("ACEPTA");}
+. {printf("NO ACEPTA");}
 %%
