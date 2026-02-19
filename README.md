@@ -28,8 +28,7 @@ gcc lex.yy.c -o numC -lfl
 
 **Desde un archivo:**
 ```bash
-./numC entrada.txt
-# o con redireccionamiento
+# Con redireccionamiento
 ./numC < entrada.txt
 ```
 
